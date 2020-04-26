@@ -1,0 +1,10 @@
+1>
+컨테이너 : tr.athing
+순위 : tr.athing span.rank
+제목 : tr.athing td.title>a
+출처 : tr.athing span.sitebit
+
+2> 
+컨테이너 : div.lst_thum_wrap li
+제목 : div.lst_thum_wrap li a strong
+제자 : div.lst_thum_wrap li a span.writer

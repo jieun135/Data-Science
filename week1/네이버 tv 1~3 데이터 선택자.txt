@@ -1,0 +1,13 @@
+//네이버 티비 1~3위 데이터 선택자 //
+컨테이너 : div.inner # div 태그에 inner라는 class안에 있음
+제목: div.inner dt.title strong span #직접 가지고 있지 않으면 스페이스 바로 검색 div.inner dt.title 가능
+채널명: div.inner dd.chn>a # div.inner dd.chn가능
+재생수: div.inner dd.meta span.hit # div.inner span.hit 가능
+좋아요수: div.inner dd.meta span.like #  div.inner span.like
+
+//네이터 티비 4~100위 데이터 선택자 // 
+컨테이너 : div#content // div.top100_mv // div.cds_area // div.cds
+제목 : div.cds_area dt.title>a // div.cds dt.title
+채널명: div.cds_area dd.chn>a // div.cds dd.chn
+재생수: div.cds_area dd.meta span.hit // div.cds span.hit
+좋아요수: div.cds_area dd.meta span.like // div.cds span.like
